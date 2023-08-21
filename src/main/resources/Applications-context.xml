@@ -1,0 +1,76 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="horseService" class="HorseService">
+        <property name="horses" ref="horses"/>
+    </bean>
+    <bean id="raceService" class="RaceService"/>
+    <bean id="emulationService" class="EmulationService"/>
+
+    <!-- Определение лошадей, всадников и пород -->
+
+    <!-- Определение пород -->
+    <bean id="arabian" class="Breed">
+        <property name="name" value="Арабская"/>
+    </bean>
+    <bean id="american" class="Breed">
+        <property name="name" value="Американская"/>
+    </bean>
+    <bean id="frizskaya" class="Breed">
+        <property name="name" value="Фризская"/>
+    </bean>
+    <bean id="donskaya" class="Breed">
+        <property name="name" value="Донская"/>
+    </bean>
+
+    <!-- Определение всадников -->
+    <bean id="rider1" class="Rider">
+        <property name="name" value="Доминик Торетто"/>
+    </bean>
+    <bean id="rider2" class="Rider">
+        <property name="name" value="Люк Хоббс"/>
+    </bean>
+    <bean id="rider3" class="Rider">
+        <property name="name" value="Брайн О'Коннер"/>
+    </bean>
+    <bean id="rider4" class="Rider">
+        <property name="name" value="Хан Лю"/>
+    </bean>
+
+    <!-- Определение лошадей -->
+    <bean id="horse1" class="Horse">
+        <property name="name" value="Машка"/>
+        <property name="rider" ref="rider1"/>
+        <property name="breed" ref="arabian"/>
+    </bean>
+    <bean id="horse2" class="Horse">
+        <property name="name" value="Дашка"/>
+        <property name="rider" ref="rider2"/>
+        <property name="breed" ref="american"/>
+    </bean>
+    <bean id="horse3" class="Horse">
+        <property name="name" value="Сашка"/>
+        <property name="rider" ref="rider3"/>
+        <property name="breed" ref="frizskaya"/>
+    </bean>
+    <bean id="horse4" class="Horse">
+        <property name="name" value="Пашка"/>
+        <property name="rider" ref="rider4"/>
+        <property name="breed" ref="donskaya"/>
+    </bean>
+
+    <!-- Список всех лошадей -->
+    <bean id="horses" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="horse1"/>
+                <ref bean="horse2"/>
+                <ref bean="horse3"/>
+                <ref bean="horse4"/>
+
+            </list>
+        </constructor-arg>
+    </bean>
+
+</beans>
