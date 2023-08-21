@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92917b3b-a429-42c4-b655-1b068a792bcc" name="Changes" comment="Готовый первый таск">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Breed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EmulationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HorseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RaceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Rider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Applications-context.xml" afterDir="false" />
+    <list default="true" id="92917b3b-a429-42c4-b655-1b068a792bcc" name="Changes" comment="Чек изменений">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Breed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Breed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EmulationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmulationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HorseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HorseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RaceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Applications-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Applications-context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +31,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="task1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="021928dc-6711-42bf-9972-8a39676fe904" />
+        <option name="url" value="https://github.com/FFNV/SH_Task1.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,16 +71,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -85,6 +101,21 @@
       <option name="presentableId" value="Default" />
       <updated>1692456943387</updated>
     </task>
+    <task id="LOCAL-00001" summary="Готовый первый таск">
+      <created>1692629685970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692629685970</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Чек изменений">
+      <created>1692632825756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692632825756</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +129,17 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="task2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -106,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Готовый первый таск" />
-    <option name="LAST_COMMIT_MESSAGE" value="Готовый первый таск" />
+    <MESSAGE value="Чек изменений" />
+    <option name="LAST_COMMIT_MESSAGE" value="Чек изменений" />
   </component>
 </project>

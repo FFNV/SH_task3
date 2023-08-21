@@ -2,59 +2,59 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="horseService" class="HorseService">
+    <bean id="horseService" class="org.example.HorseService">
         <property name="horses" ref="horses"/>
     </bean>
-    <bean id="raceService" class="RaceService"/>
-    <bean id="emulationService" class="EmulationService"/>
+    <bean id="raceService" class="org.example.RaceService"/>
+    <bean id="emulationService" class="org.example.EmulationService"/>
 
     <!-- Определение лошадей, всадников и пород -->
 
     <!-- Определение пород -->
-    <bean id="arabian" class="Breed">
+    <bean id="arabian" class="org.example.Breed">
         <property name="name" value="Арабская"/>
     </bean>
-    <bean id="american" class="Breed">
+    <bean id="american" class="org.example.Breed">
         <property name="name" value="Американская"/>
     </bean>
-    <bean id="frizskaya" class="Breed">
+    <bean id="frizskaya" class="org.example.Breed">
         <property name="name" value="Фризская"/>
     </bean>
-    <bean id="donskaya" class="Breed">
+    <bean id="donskaya" class="org.example.Breed">
         <property name="name" value="Донская"/>
     </bean>
 
     <!-- Определение всадников -->
-    <bean id="rider1" class="Rider">
+    <bean id="rider1" class="org.example.Rider">
         <property name="name" value="Доминик Торетто"/>
     </bean>
-    <bean id="rider2" class="Rider">
+    <bean id="rider2" class="org.example.Rider">
         <property name="name" value="Люк Хоббс"/>
     </bean>
-    <bean id="rider3" class="Rider">
+    <bean id="rider3" class="org.example.Rider">
         <property name="name" value="Брайн О'Коннер"/>
     </bean>
-    <bean id="rider4" class="Rider">
+    <bean id="rider4" class="org.example.Rider">
         <property name="name" value="Хан Лю"/>
     </bean>
 
     <!-- Определение лошадей -->
-    <bean id="horse1" class="Horse">
+    <bean id="horse1" class="org.example.Horse">
         <property name="name" value="Машка"/>
         <property name="rider" ref="rider1"/>
         <property name="breed" ref="arabian"/>
     </bean>
-    <bean id="horse2" class="Horse">
+    <bean id="horse2" class="org.example.Horse">
         <property name="name" value="Дашка"/>
         <property name="rider" ref="rider2"/>
         <property name="breed" ref="american"/>
     </bean>
-    <bean id="horse3" class="Horse">
+    <bean id="horse3" class="org.example.Horse">
         <property name="name" value="Сашка"/>
         <property name="rider" ref="rider3"/>
         <property name="breed" ref="frizskaya"/>
     </bean>
-    <bean id="horse4" class="Horse">
+    <bean id="horse4" class="org.example.Horse">
         <property name="name" value="Пашка"/>
         <property name="rider" ref="rider4"/>
         <property name="breed" ref="donskaya"/>

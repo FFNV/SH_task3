@@ -1,5 +1,9 @@
-import java.util.Objects;
+package org.example;
 
+import org.springframework.stereotype.Component;
+
+import java.util.Objects;
+@Component
 public class Horse {
 
         private String name;
