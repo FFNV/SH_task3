@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92917b3b-a429-42c4-b655-1b068a792bcc" name="Changes" comment="Чек изменений">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AppConfig.java" afterDir="false" />
+    <list default="true" id="92917b3b-a429-42c4-b655-1b068a792bcc" name="Changes" comment="Готовый второй таск">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Breed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Breed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmulationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmulationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HorseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HorseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Race.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RaceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Applications-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Applications-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Breed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Breed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EmulationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EmulationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HorseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HorseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RaceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RaceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Rider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Rider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="task1" />
+        <entry key="$PROJECT_DIR$" value="task2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,7 +71,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -115,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692632825756</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Готовый второй таск">
+      <created>1692651059104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692651059104</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,7 +136,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="task2" />
+                        <option value="task3" />
                       </list>
                     </value>
                   </entry>
@@ -149,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Готовый первый таск" />
     <MESSAGE value="Чек изменений" />
-    <option name="LAST_COMMIT_MESSAGE" value="Чек изменений" />
+    <MESSAGE value="Готовый второй таск" />
+    <option name="LAST_COMMIT_MESSAGE" value="Готовый второй таск" />
   </component>
 </project>

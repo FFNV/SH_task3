@@ -4,7 +4,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Random;
-@Service
 public class EmulationService {
     protected static final int RACE_DISTANCE = 100;
 

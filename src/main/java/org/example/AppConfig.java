@@ -10,7 +10,6 @@ import java.util.Collections;
 import java.util.List;
 
 @Configuration
-@ComponentScan(basePackages = "org.example")
 public class AppConfig {
     // Определение всадников
     @Bean
@@ -84,6 +83,21 @@ public class AppConfig {
     @Bean
     public List<Horse> horses(Horse horse, Horse horse2, Horse horse3, Horse horse4) {
         return Arrays.asList(horse, horse2, horse3, horse4);
+    }
+    @Bean
+    public HorseService horseService(List<Horse> horses) {
+        HorseService horseService = new HorseService(horses);
+        return horseService;
+    }
+
+    @Bean
+    public RaceService raceService() {
+        return new RaceService();
+    }
+
+    @Bean
+    public EmulationService emulationService() {
+        return new EmulationService();
     }
 
 }

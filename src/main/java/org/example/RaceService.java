@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
-@Service
 public class RaceService {
 
     private static final int NUMBER_OF_HORSES_IN_RACE = 5; // Можно выбрать другое число лошадей в гонке
